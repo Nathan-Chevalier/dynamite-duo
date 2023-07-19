@@ -20,3 +20,5 @@ const theWholeEnchilada = `
     reference to the <main> element
 */
 const theExistingMainElement = document.querySelector("#container");
+
+theExistingMainElement.innerHTML = theWholeEnchilada;
